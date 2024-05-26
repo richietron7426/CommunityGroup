@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin:0;
+}
+h2{
+  background-color: rgb(243, 191, 94);
+   color: rgb(20, 11, 11);
+    border-radius: 20%;
+    transition: 1s;
+}
+h2:hover{
+    background-color: white;
+    box-shadow: 20px 20px 10px;
+}
+body{
+background-image: url(./friendship.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+}
+.a{
+    margin: 30px;
+}
+.content{
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color:black;
+    font-weight: bold;
+    text-decoration: none; 
+    cursor: pointer;
+    margin-right: 12px;
+    background-color: ORANGE;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+
+a:hover{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px;
+}
+.content h1 b{
+    background-color: yellow;
+    color: blue;
+    border-radius: 20px;
+    width: 90px;
+    height:50px;
+    animation-name:fade;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes fade{
+    0%{ 
+        background-color: yellow;
+        color: blue;}
+    50%{    background-color: blue;
+        color: yellow}
+   100%{
+    background-color: yellow;
+    color: blue;}
+}
